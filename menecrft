@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>minecrft</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial;
+    background:linear-gradient(180deg,#0f0f0f,#1c1c1c);
+    color:white;
+}
+
+header{
+    text-align:center;
+    padding:35px;
+    font-size:34px;
+    color:#7CFC00;
+    text-shadow:0 0 10px #00ff00;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(260px,1fr));
+    gap:15px;
+    padding:20px;
+}
+
+.card{
+    background:#222;
+    border:1px solid #4caf50;
+    border-radius:12px;
+    padding:15px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+    box-shadow:0 0 15px #00ff00;
+}
+
+h2{
+    color:#7CFC00;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    color:#888;
+    font-size:13px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+⛏️ MINECRAFT  REHBER SİTESİ ⛏️
+</header>
+
+<div class="container">
+
+<div class="card">
+<h2>🌍 Oyunun Temeli</h2>
+<p>Minecraft bloklardan oluşan açık dünya oyunudur.</p>
+</div>
+
+<div class="card">
+<h2>🧟 Canavarlar</h2>
+<p>Creeper, zombi ve iskelet geceleri ortaya çıkar.</p>
+</div>
+
+<div class="card">
+<h2>🏔️ Biyomlar</h2>
+<p>Orman, çöl, tundra ve okyanus biyomları vardır.</p>
+</div>
+<div class="card">
+<h2>⚒️ Eşyalar</h2>
+
+<p style="font-size:14px; line-height:1.3; margin:0;">
+⛏️ <b>Kazma:</b> Madenleri daha hızlı kırar.<br>
+🪓 <b>Balta:</b> Odunları daha hızlı kırar.<br>
+🗡️ <b>Kılıç:</b> Canavarları daha hızlı öldürür.
+</p>
+
+</div>
+
+
+
+<div class="card">
+<h2>🧪 Crafting</h2>
+<p>Odun → tahta → araçlar → güçlü ekipmanlar.</p>
+</div>
+
+<div class="card">
+<h2>🔥 1. Son Görev: End Gözleri</h2>
+<p>
+Oyunu bitirmek için Nether’a gidip malzemeleri toplamalısın.<br><br>
+
+✔ Ender incisi<br>
+✔ Blaze çubuğu<br><br>
+
+Bu iki malzemeyi birleştirerek End Gözünü yaparsın.<br>
+End Gözleri seni End portalına götürür.
+</p>
+</div>
+
+<div class="card">
+<h2>🐉 2. Final: End Ejderhası</h2>
+<p>
+End portalını bulup End boyutuna gidersin.<br><br>
+
+✔ End Ejderhası ile savaş<br>
+✔ Kristalleri yok et<br>
+✔ Ejderhayı yen<br><br>
+
+Ejderhayı yendiğinde oyun tamamlanır.
+</p>
+</div>
+
+<div class="card">
+<h2>💡 İpuçları</h2>
+<p>İlk gece ev yap ve meşale kullan.</p>
+</div>
+
+<div class="card">
+<h2>🧱 Bloklar</h2>
+<p>Taş, demir ve elmas en önemli kaynaklardır.</p>
+</div>
+
+<!-- 🟢 YENİ SON ÇERÇEVE -->
+<div class="card">
+<h2>🔴 Redstone (Kızıltaş)</h2>
+<p>
+Redstone (Kızıltaş) bir madendir.<br><br>
+
+✔ Devreler yapmada kullanılır<br>
+✔ Kapılar, tuzaklar ve otomatik sistemler yapılır<br>
+✔ Büyük redstone makinelerinde kullanılır<br><br>
+
+Minecraft’ın “elektrik sistemi” gibi çalışır.
+</p>
+</div>
+
+</div>
+
+<footer>
+Minecraft Rehber • Tüm Sistemler Tamamlandı • Tek HTML
+</footer>
+
+</body>
+</html>
